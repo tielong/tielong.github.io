@@ -1,0 +1,102 @@
+<html><head><meta name='viewport' content='user-scalable=no; initial-scale=1.0'/><style>html,body{margin:0;padding:0;height:100%;border:none;}</style><script>(function (window, console) {
+    var is_array = function (obj) {
+        return Object.prototype.toString.call(obj) === '[object Array]';
+    };
+    var addViewTreeObservers = function(){
+        viewableAdSDKBridge.addKeyValueObservers();
+    };
+    var removeViewTreeObservers = function(){
+        viewableAdSDKBridge.removeKeyValueObservers();
+    };
+    forEach = function (array, fn) {
+        var i;
+        for (i = 0; i < array.length; i++) {
+            if (i in array) {
+                fn.call(null, array[i], i);
+            }
+        }
+    },
+    listeners = [],
+    version = 1.1,
+    invokeListeners = function(event, args) {
+        var eventListeners = listeners[event] || [];
+        // fire all the listeners
+        forEach(eventListeners, function(listener){
+            try {
+                listener.apply(null, args);
+            }catch(e){
+                debug("Error executing " + event + " listener");
+                debug(e);
+            }
+        });
+    },
+    debug = function(msg) {
+        console.log("MRAID log: " + msg);
+    },
+    viewabilityChangeEvent = function(viewable) {
+        var args = [viewable];
+        invokeListeners("Viewability", args);
+    }, 
+    /* we can add new event properties in future */  
+    window.Event = {
+            Viewability: 'Viewability'
+    },
+    window.viewableBridge = {
+       viewabilityChange : viewabilityChangeEvent
+    },
+    // Define the amazonmobileadsviewablebridge object
+    window.amazonmobileadsviewablebridge = {
+            // Command Flow
+            addEventListener : function(event, listener){
+                if (listeners.length  == 0){ 
+                    addViewTreeObservers();  
+                } 
+                var eventListeners = listeners[event] || [],
+                alreadyRegistered = false;
+                
+                //verify the event is one that will actually occur/ verfiy it's supported by SDK
+                if (!Event.hasOwnProperty(event)){
+                    return;
+                }
+                
+                //register first set of listeners for this event
+                if (!is_array(listeners[event])) {
+                    listeners[event] = eventListeners;
+                }
+                
+                forEach(eventListeners, function(l){ 
+                    // Listener already registered, so no need to add it.
+                        if (listener === l){
+                            alreadyRegistered = true;
+                        }
+                    }
+                );
+                if (!alreadyRegistered){
+                    listeners[event].push(listener);
+                }
+            },
+            removeEventListener : function(event, listener){
+                if (listeners.hasOwnProperty(event)) {
+                    var eventListeners = listeners[event];
+                    if (eventListeners) {
+                        var idx = eventListeners.indexOf(listener);
+                        if (idx !== -1) {
+                            eventListeners.splice(idx, 1);
+                        }
+                    }
+                }
+                if (listeners[Event.Viewability].length == 0){ 
+                     removeViewTreeObservers();  
+                } 
+            },
+            getSDKVersion: function(){
+                return viewableAdSDKBridge.getSDKVersion();
+            },
+            getVersion: function(){
+                return version;
+            },
+    };
+})(window, console);
+
+</script></head><body><!DOCTYPE html><html><body><div style="position:relative;width:320px;height:50px;z-index:9"><script>var IS_3P=true;</script><!-- [TOP_AD] --><!-- aid : 7976000988113 : cid : 7363059310201 : template : IMDb Static Image-1.124 --><script>document.ad={aid:"7976000988113",cid:"7363059310201",w:"0",h:"0"};</script><!-- [TOP_AD] --><!-- aid : 7976000988113 : cid : 7363059310201 : template : IMDb Static Image-1.124 --><!-- Third party Impression Tracking --><script>if(document.ad={aid:"7976000988113",cid:"7363059310201",w:"320",h:"50"},window.SFClient){var slot=SFClient.getARID();SFClient.customMessage("setPartner",JSON.stringify({slot:slot,partner:"1P"}))}else top&&top.generic&&top.generic.monitoring&&top.generic.monitoring.set_partner&&top.generic.monitoring.set_partner(window,"1P"),parent&&parent.ad_utils&&parent.ad_utils.expand_ad(this.frameElement);</script><a href="https://aax-us-east.amazon-adsystem.com/x/c/QphVy3toOmSqb5F5xfM0tvsAAAFoFW3vsAEAABAFAhPWBlw/https://www.imdb.com/" target="_blank"><img src="https://images-na.ssl-images-amazon.com/images/G/01/shazam/640x100-nl-mobile-1-fiKtG-1d3fc310-26d8-4cd2-8c72-c7115126166b.jpg" width="320" height="50" border="0" alt="Click here"></a>
+</div></body></html><!-- creativeModDate = 1546547199000 --></body></html>
