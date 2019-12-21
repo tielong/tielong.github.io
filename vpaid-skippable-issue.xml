@@ -14,7 +14,7 @@
       
       <Creatives>
           <Creative sequence="1" id="3625408890601">
-              <Linear skipoffset="00:00:06">
+              <Linear skipOffset="00:00:06">
               <Duration>00:00:19</Duration>
                   <TrackingEvents>
    <Tracking event="start"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3D0EL-0aJM3Lwt3NOSJ6albg%26e%3DvideoStart%26a%3D5615912150801%26c%3D3625408890601%26s%3Dpda&ex-fch=416719&cb=5,292,699,309,267,853,229]]></Tracking>
