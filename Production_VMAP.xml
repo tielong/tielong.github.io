@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"><vmap:AdBreak breakType="linear" timeOffset="start"><vmap:AdSource><vmap:VASTAdData>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
+  <Ad id="4888713150001">
+    <InLine>
+      <AdSystem>Amazon</AdSystem>
+      <AdTitle><![CDATA[IMDb Pre-roll - Lego - LEGO_Jurassic_World_1HY18_NA_15s_52286.mp4]]></AdTitle>
+      <Error><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22c%22%3A%22video%22%2C%22err%22%3A1%2C%22src%22%3A204%7D]]></Error>
+      <Impression><![CDATA[https://aax-us-east.amazon-adsystem.com/v/imp?b=QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE&bi=Vq5r3e0npQ-NRFekIJHbV2aWkl9VzGJhkPVjoO7pYSFkHXWn2POL5cd8zmQ7SLf8ZkgAsLG6B.IOqgfkHk7BtE.-PBIJ1cY3h9R3qFYxD1NJ6txIgr9JIHyFHaZaEWCGm3aRt1ktD7fJemrSAqavMc9dlydI4ifZl8Edsoy-.vYw5mvU1tp9RtOYyt6mkilYBgJm2w6aDmbOH.PPmTmsOyRierGIxIEI5AbA36e0OCUJqnYYMFSUpato1I3eyKZB8FqpItpPhn.LBT1pELORHf3WVo1.pYBDJSiDtsQgTzoO3AqdV34qDZA8Bxmt.mZFmx1eIKhAO8Ginr5mmjmFBT2Rji2itjdLatWHeuZuGHl7cVtJNE6bx7BZO-qcxEVbQf0xKVEV0eS8DOS1UBE.qyx7YZUiaThXw5as9JxqZpw_]]></Impression><Impression><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoImpression%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=1,679,947,104,986,533,224]]></Impression>
+      
+      <Creatives>
+          <Creative sequence="1" id="4368864840001">
+              <Linear>
+              <Duration>00:00:15</Duration>
+                  <TrackingEvents>
+   <Tracking event="start"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoStart%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=8,571,303,157,536,187,897]]></Tracking>
+   <Tracking event="firstQuartile"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoFirstQuartile%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=8,531,743,874,617,177,905]]></Tracking>
+   <Tracking event="midpoint"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoMidpoint%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=8,808,989,765,966,582,549]]></Tracking>
+   <Tracking event="thirdQuartile"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoThirdQuartile%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=7,092,199,662,173,482,531]]></Tracking>
+   <Tracking event="complete"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoComplete%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=6,071,100,871,706,258,147]]></Tracking>
+   <Tracking event="mute"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoMute%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=8,474,588,981,307,229,726]]></Tracking>
+   <Tracking event="unmute"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoUnmute%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=4,539,675,812,344,694,139]]></Tracking>
+   <Tracking event="pause"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoPause%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=2,949,857,656,483,912,316]]></Tracking>
+   <Tracking event="resume"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoResume%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=1,007,241,269,398,332,107]]></Tracking>
+   <Tracking event="rewind"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoSkipBackward%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=881,024,396,709,916,413]]></Tracking>
+   <Tracking event="acceptInvitation"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoCreativeView%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=8,715,188,973,542,816,684]]></Tracking>
+   <Tracking event="close"><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoClose%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=8,655,017,586,393,282,710]]></Tracking>
+<Tracking event="start"><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22c%22%3A%22video%22%2C%22src%22%3A204%2C%22start%22%3A1%7D]]></Tracking><Tracking event="firstQuartile"><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%221q%22%3A1%2C%22c%22%3A%22video%22%2C%22src%22%3A204%7D]]></Tracking><Tracking event="midpoint"><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22c%22%3A%22video%22%2C%22src%22%3A204%2C%222q%22%3A1%7D]]></Tracking><Tracking event="thirdQuartile"><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22c%22%3A%22video%22%2C%22src%22%3A204%2C%223q%22%3A1%7D]]></Tracking><Tracking event="complete"><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22c%22%3A%22video%22%2C%22src%22%3A204%2C%22cpl%22%3A1%7D]]></Tracking><Tracking event="pause"><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22p%22%3A1%2C%22c%22%3A%22video%22%2C%22src%22%3A204%7D]]></Tracking><Tracking event="resume"><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22r%22%3A1%2C%22c%22%3A%22video%22%2C%22src%22%3A204%7D]]></Tracking></TrackingEvents>
+                  <VideoClicks>
+                    <ClickThrough><![CDATA[https://aax-us-east.amazon-adsystem.com/x/c/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/https://www.imdb.com/lego/jurassic-world/]]></ClickThrough>
+                    <ClickTracking><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&ex-fargs=%3Fi%3DQI6pUKMu8VbePXkviTa6hg%26e%3DvideoClick%26a%3D4888713150001%26c%3D4368864840001%26s%3Dpda&ex-fch=416719&cb=632,157,540,747,066,528]]></ClickTracking>
+                  <ClickTracking><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/%7B%22c%22%3A%22video%22%2C%22clk%22%3A1%2C%22src%22%3A204%7D]]></ClickTracking></VideoClicks>
+                  <MediaFiles>
+                    <MediaFile height="1080" width="1920" bitrate="1270" type="application/x-shockwave-flash" apiFramework="VPAID">
+                      <![CDATA[https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/vpaid-2.swf]]>
+                    </MediaFile>
+                    <MediaFile type="application/javascript" apiFramework="VPAID">
+                        https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/v/vpaid-0ba0fcc52ed614e8eed5.bundle.min.js
+                    </MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="1270" type="application/x-shockwave-flash" apiFramework="VPAID">
+                        <![CDATA[https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/vpaid-1.swf]]>
+                      </MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="9788" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/10000-1920x1080.mp4</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="3043" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/3000-1920x1080.mp4</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="2036" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/2000-1920x1080.mp4</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="1470" type="video/webm" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/1350-1920x1080.webm</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="1388" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/1350-1920x1080.mp4</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="1270" type="video/x-flv" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/1350-1920x1080.flv</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="948" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/900-1920x1080.mp4</MediaFile>
+                      <MediaFile height="1080" width="1920" bitrate="630" type="video/mp4" delivery="progressive">https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/600-1920x1080.mp4</MediaFile>
+                  </MediaFiles>
+                  <AdParameters><![CDATA[<videoUrl>https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/1350-1920x1080.flv</videoUrl>
+                      <clickUrl>https://aax-us-east.amazon-adsystem.com/x/c/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/https://www.imdb.com/lego/jurassic-world/</clickUrl>
+                      <adDuration>15</adDuration>
+                      <adPrefUrl>https://www.amazon.com/adprefs</adPrefUrl>
+                      <showAdNotice>0</showAdNotice>
+                      <expandableAdChoices>1</expandableAdChoices>
+                      <JsParameters>
+                        {"duration":15,"clickThruUrl":"https://aax-us-east.amazon-adsystem.com/x/c/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/https://www.imdb.com/lego/jurassic-world/","showAdChoices":false,"skippableState":false,"adChoicesLocale":"US","vuInstr":"https://aax-us-east.amazon-adsystem.com/x/px/QkCOqVCjLvFW3j15L4k2uoYAAAFk8Yn-5gEAAADMBAPLqwE/","adCfid":4888713150001,"creativeCfid":4368864840001,"videos":[{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/10000-1920x1080.mp4"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/3000-1920x1080.mp4"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/2000-1920x1080.mp4"},{"mimetype":"video/webm","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/1350-1920x1080.webm"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/1350-1920x1080.mp4"},{"mimetype":"video/x-flv","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/1350-1920x1080.flv"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/900-1920x1080.mp4"},{"mimetype":"video/mp4","url":"https://cdn-a.amazon-adsystem.com/video/ebf5e9ef-0623-4703-8684-8f8723091f29/600-1920x1080.mp4"}],"vpaidVersion":"2.0","vu":"//c.amazon-adsystem.com/bao-csm/webvideo/csm.js"}
+                      </JsParameters>]]></AdParameters>
+              </Linear>
+          </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST><!-- creativeModDate = 1532553331000 -->
+
+</vmap:VASTAdData></vmap:AdSource></vmap:AdBreak></vmap:VMAP>
