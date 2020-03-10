@@ -1,0 +1,21 @@
+/* JWPlayer Custom UI */
+
+/* Completely hide the full screen button at all times */
+.jw-icon-fullscreen {
+    display: none !important;
+}
+
+/* Skip Button on iPhone Portrait */
+.jw-skip {
+    bottom: 6px !important;
+}
+
+.jw-progress {
+    display: none !important;
+}
+
+/* Skip Button on iPhone Landscape and iPad Portrait/Landscape */
+.jw-skip:not(.jw-flag-small-player) {
+    bottom: 5px !important;
+    background-color: transparent !important;
+}
