@@ -1,7 +1,7 @@
 
 <vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0"><vmap:AdBreak breakType="linear" timeOffset="start"><vmap:AdSource><vmap:VASTAdData>
 
-<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
   <Ad id="5067761830501">
     <InLine>
       <AdSystem>Amazon</AdSystem>
@@ -36,14 +36,14 @@
                     <ClickTracking><![CDATA[https://s.amazon-adsystem.com/iui3?d=forester-did&gdpr_pd=1&gdpr_consent=&gdpr=0&ex-fargs=%3Fi%3Dn2eNE4bhb-GuHO6fXe33tg%26e%3DvideoClick%26a%3D5067761830501%26c%3D3207850560501%26s%3Dpda%26u%3Dn2eNE4bhb-GuHO6fXe33tg&ex-fch=416719&cb=1,967,739,507,846,188,734]]></ClickTracking>
                   <ClickTracking><![CDATA[https://aax-us-east.amazon-adsystem.com/x/px/Ip9njROG4W_hrhzun13t97YAAAF3TVQ_eQEAAADMBDGqRuc/%7B%22c%22%3A%22video%22%2C%22clk%22%3A1%2C%22src%22%3A204%7D]]></ClickTracking></VideoClicks>
                   <MediaFiles>
-                    <MediaFile height="1080" width="1920" bitrate="1350" type="application/x-shockwave-flash" delivery="progressive" apiFramework="VPAID">
-                      <![CDATA[https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/vpaid-2.swf]]>
+                    <MediaFile height="1080" width="1920" bitrate="1350" type="video/mp4" delivery="progressive" apiFramework="VPAID">
+                      <![CDATA[https://cdn-a.amazon-adsystem.com/video/64e45394-c496-41a9-b798-c1d494b2adda/MP4-10000kbs-29.97fps-48khz-320kbs-1080p.mp4]]>
                     </MediaFile>
                     <MediaFile height="0" width="0" delivery="progressive" type="application/javascript" apiFramework="VPAID">
                         <![CDATA[https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/v/vpaid.a3412b303dfedaeb0904.bundle.min.js]]>
                     </MediaFile>
-                      <MediaFile height="1080" width="1920" bitrate="1350" type="application/x-shockwave-flash" delivery="progressive" apiFramework="VPAID">
-                        <![CDATA[https://images-na.ssl-images-amazon.com/images/G/01/d16g/kpw/vpaid-1.swf]]>
+                      <MediaFile height="1080" width="1920" bitrate="1350" type="video/mp4" delivery="progressive" apiFramework="VPAID">
+                        <![CDATA[https://cdn-a.amazon-adsystem.com/video/64e45394-c496-41a9-b798-c1d494b2adda/MP4-10000kbs-29.97fps-48khz-320kbs-1080p.mp4]]>
                       </MediaFile>
                   </MediaFiles>
                   <AdParameters><![CDATA[<videoUrl>https://cdn-a.amazon-adsystem.com/video/64e45394-c496-41a9-b798-c1d494b2adda/FLV-1350kbs-29.97fps-44.1khz-96kbs.flv</videoUrl>
